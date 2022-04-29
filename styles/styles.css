@@ -1,5 +1,4 @@
-
-:root{
+:root {
    --Lime-Green: hsl(163, 72%, 41%);
    --Bright-Red: hsl(356, 69%, 56%);
    --Facebook: hsl(208, 92%, 53%);
@@ -21,7 +20,115 @@
    --Very-Pale-Blue-Top-BG-Pattern: hsl(225, 100%, 98%);
    --Light-Grayish-Blue-Card-BG: hsl(227, 47%, 96%);
    --Dark-Grayish-Blue-Text: hsl(228, 12%, 44%);
-   --Very-Dark-Blue-Text: hsl(230, 17%, 14%)  ;
+   --Very-Dark-Blue-Text: hsl(230, 17%, 14%);
+}
 
-};
+/* .container {
+   margin: 0 auto;
+   max-width: 1440px;
+ } */
+
+body {
+   max-width: 1440px;
+   background-color: var(--White-BG);
+}
+
+.container-header {
+   width: 90%;
+   margin: 50px;
+   border: 1px solid;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+main {
+   display: flex;
+   margin: 50px;
+   width: 90%;
+   border: 1px solid blue;
+   /* padding: 10px; */
+   gap: 30px;
+}
+.box-social-media{
+   background-color: var(--Light-Grayish-Blue-Card-BG);
+   border-top: 4px solid red;
+   border-top-color: var(--Facebook);
+   /* height: 100px; */
+   width: 30%;
+   padding: 30px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.box-social-media.youtube{
+   border-top-color: var(--YouTube);
+}
+
+/* 
+linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%)) border-box
+
+*/
+.instagram {
+   border-top-color:  var(--YouTube);
+  
+ }
+
+.social-image-media{
+   display: flex;
+}
+.social-image-media > p {
+   padding-left: 10px;
+}
+
+.box-social-media > h1 {
+   font-size: 3.5rem;
+   font-weight: 700;
+   font-family: Inter;
+}
+
+.today {
+   display: flex;
+   align-items: center;
+   font-size: .8rem;
+   color: var(--Lime-Green);
+   font-weight: 700;
+   font-family: Inter;
+  
+}
+.today > img{
+   padding-right: 5px;
+}
+
+.today p#down{
+   color: var(--Bright-Red);
+}
+
+/* BOX-OVERVIEW */
+
+.overview-container{
+   display: flex;
+   margin: 50px;
+   width: 90%;
+   border: 1px solid blue;
+   /* padding: 10px; */
+   /* gap: 30px; */
+   
+   border: 1px solid rebeccapurple;
+   width: 90%;
+   height: 100px;
+
+}
+
+.box-overview{
+   display: flex;
+   flex-wrap: wrap;
+   border: 2px solid;
+   display: flex;
+   /* flex-direction: column; */
+   width: 100%;
+}
+
 
