@@ -9,7 +9,7 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/social-media-dashboard-grid-and-flexbox-SJNn2uhrc
 - Live Site URL: https://wallaceanterio.github.io/social-media-dashboard-with-theme-switcher-master/
 ### Built with
 - Semantic HTML5 markup
