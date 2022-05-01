@@ -4,16 +4,11 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 
 ## Overview
 
-<<<<<<< HEAD
 ![](../social-media-dashboard-with-theme-switcher-master/images/darkMode-desktop.png)
 
 ![](../social-media-dashboard-with-theme-switcher-master/images/lightMode-desktop.png)
 
 
-=======
-### Screenshot
-![](./screenshot.jpg)
->>>>>>> cfc29632104dd9ff0a13135ce35cd2d3bdc19b3a
 
 ### Links
 
