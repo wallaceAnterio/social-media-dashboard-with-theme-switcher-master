@@ -5,7 +5,11 @@ This is a solution to the [Social media dashboard with theme switcher challenge 
 ## Overview
 ### Screenshot
 
-![](./screenshot.jpg)
+![](../social-media-dashboard-with-theme-switcher-master/images/darkMode-desktop.png)
+
+![](../social-media-dashboard-with-theme-switcher-master/images/lightMode-desktop.png)
+
+
 
 ### Links
 
